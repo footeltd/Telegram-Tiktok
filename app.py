@@ -15,7 +15,7 @@ token = os.getenv("TOKEN")
 BOT_USERNAME = '@ManukaAI_Bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('✅ Welcome to the Highest Quality FREE TikTok Downloader bot for OFM \n📈 Downloaded 17793 TikToks and counting.. \n⚡️ Quickly download TikToks without watermarks. Metadata gets changed for video repurposing\n🔗 EASY TO USE: Paste the link to the TikTok video \n⬇️ Drop your TikTok video link to download it in HD now')
+    await update.message.reply_text('✅ Welcome to the Highest Quality FREE TikTok Downloader bot for OFM\n \n📈 Downloaded 17793 TikToks and counting..\n \n⚡️ Quickly download TikToks without watermarks. Metadata gets changed for video repurposing\n \n🔗 EASY TO USE: Paste the link to the TikTok video\n \n⬇️ Drop your TikTok video link to download it in HD now')
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Please type something so i can respond')
