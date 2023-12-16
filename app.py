@@ -15,7 +15,19 @@ token = os.getenv("TOKEN")
 BOT_USERNAME = '@ManukaAI_Bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Support me on : https://www.paypal.me/ardha27')
+    await update.message.reply_text('✅ Welcome to the Highest Quality FREE TikTok Downloader bot for OFM
+
+📈 Downloaded 17793 TikToks and counting..
+
+⚡️ Quickly download TikToks without watermarks. Metadata gets changed for video repurposing
+
+🔗 EASY TO USE: Paste the link to the TikTok video
+
+🌟 Want more? Check out the premium !
+   Type `/premium` for all the details.
+
+⬇️ Drop your TikTok video link to download it in HD now
+ChatGPT')
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Please type something so i can respond')
